@@ -4,7 +4,7 @@ import {useRouter} from 'next/router'
 import Link from 'next/link'
 import Router from 'next/router'
 
-export default function Delivery() {
+export default function Posts() {
 
   return (
     <MainLAyout>
@@ -14,61 +14,66 @@ export default function Delivery() {
 
     <main >
         <div className="homeContainer">
-        <h3 className="rowTop">Delivery</h3>
-
-        <div className="tableBox">
+        <h3 className="rowTop">Posts</h3>
+                
+        <div className="tableBox"> 
             <div className="delTop">
-            <Link href={'/create'}><a type="button" className="btn btn-top btn-primary">
+            <Link href={'/createPost'}><a type="button" className="btn btn-top btn-primary">
             <i className="fas fa-plus"></i>
                 Add
                 </a></Link>
             </div>
             <div className="delTop">
-            <div className="table-responsive  rowTop">
-                <table className="table ">
+            <div className="table-responsive rowTop">
+                <table className="table">
                     <thead>
                         <tr>
-                        <th>Name</th>
-                        <th>Type</th>
-                        <th>Active</th>
-                        <th>Min Order</th>
-                        <th>Cost</th>
-                        
+                        <th>Id</th>
+                        <th>Posted</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th>Title</th>
+                        <th>Delivered</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                         <td>
-                        <Link href={'/create'}><a>
-            <i className="fas fa-plus"></i>
-                Express delivery
-                </a></Link>
-                            </td>
-                        <td> Deliver</td>
-                        <td>Yes</td>
-                        <td>0 sum</td>
-                        <td>0 sum</td>
+                        <input className="formControl" type="text" id="text-input"/>
+                        </td>
+                        <td>
+                        <select className="custom-select">
+                        <option >Yes</option>
+                        <option >No</option>
+                    </select>
+                        </td>
+                        <td>
+                        <select className="custom-select">
+                        <option >Type 1</option>
+                        <option >Type 2</option>
+                    </select>
+                        </td>
+                        <td>
+                        <input className="formControl " type="date" id="example-date-input"/>
+                        </td>
+                       
+                        <td>
+                        <input className="formControl" type="text" id="text-input"/>
+                        </td>
+                       
                     
                         </tr>
                         <tr>
-                        <td>
-                        <Link href={'/create'}><a>
-            <i className="fas fa-plus"></i>
-                Takeaway
-                </a></Link>
-                            </td>
-                        <td> Deliver</td>
-                        <td>Yes</td>
-                        <td>0 sum</td>
-                        <td>0 sum</td>
-                    
+                        <td colspan="7"> Not Found</td>
                         </tr>
+                        
                     </tbody>
                 </table>
             </div>
+            </div>
+            </div>
         </div>
-        </div>
-        </div>
+      
     </main>
 
       
@@ -87,7 +92,7 @@ export default function Delivery() {
         border-top:none;
         border-left:2px solid white;
         border-bottom:2px solid #dee2e6;
-        width:15%;
+        
     }
 
     .delTop{

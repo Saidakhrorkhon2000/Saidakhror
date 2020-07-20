@@ -40,7 +40,7 @@ export default function Promocodes() {
                     <tbody>
                         <tr>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
                         <select className="custom-select">
@@ -49,10 +49,10 @@ export default function Promocodes() {
                     </select>
                         </td>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
                         <select className="custom-select">
@@ -61,10 +61,10 @@ export default function Promocodes() {
                     </select>
                         </td>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
-                        <input className="form-control " type="date" id="example-date-input"/>
+                        <input className="formControl " type="date" id="example-date-input"/>
                         </td>
                     
                         </tr>
@@ -100,7 +100,7 @@ export default function Promocodes() {
     }
 
     .delTop{
-    padding: 15px;
+    margin: 10px;
     border-radius: 0;
     background-color: #FFF;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12);

@@ -4,7 +4,7 @@ import {useRouter} from 'next/router'
 import Link from 'next/link'
 import Router from 'next/router'
 
-export default function Delivery() {
+export default function Integration() {
 
   return (
     <MainLAyout>
@@ -14,59 +14,40 @@ export default function Delivery() {
 
     <main >
         <div className="homeContainer">
-        <h3 className="rowTop">Delivery</h3>
+        <h3 className="rowTop">Integration</h3>
 
         <div className="tableBox">
             <div className="delTop">
-            <Link href={'/create'}><a type="button" className="btn btn-top btn-primary">
-            <i className="fas fa-plus"></i>
-                Add
-                </a></Link>
+                <div class="dropdown show">
+                    <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
             </div>
             <div className="delTop">
-            <div className="table-responsive  rowTop">
-                <table className="table ">
+            <div className="table-responsive rowTop">
+                <table className="table">
                     <thead>
                         <tr>
-                        <th>Name</th>
-                        <th>Type</th>
-                        <th>Active</th>
-                        <th>Min Order</th>
-                        <th>Cost</th>
-                        
+                        <th colspan="7">Платежная система</th>
                         </tr>
                     </thead>
                     <tbody>
+                        
                         <tr>
-                        <td>
-                        <Link href={'/create'}><a>
-            <i className="fas fa-plus"></i>
-                Express delivery
-                </a></Link>
-                            </td>
-                        <td> Deliver</td>
-                        <td>Yes</td>
-                        <td>0 sum</td>
-                        <td>0 sum</td>
-                    
+                        <td colspan="7"> Ничего не найдено.</td>
                         </tr>
-                        <tr>
-                        <td>
-                        <Link href={'/create'}><a>
-            <i className="fas fa-plus"></i>
-                Takeaway
-                </a></Link>
-                            </td>
-                        <td> Deliver</td>
-                        <td>Yes</td>
-                        <td>0 sum</td>
-                        <td>0 sum</td>
-                    
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
-        </div>
+            </div>
         </div>
         </div>
     </main>
@@ -87,7 +68,7 @@ export default function Delivery() {
         border-top:none;
         border-left:2px solid white;
         border-bottom:2px solid #dee2e6;
-        width:15%;
+        
     }
 
     .delTop{

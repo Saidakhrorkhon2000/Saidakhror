@@ -23,26 +23,26 @@ export default function Create() {
             </div>
             <div className="createForm">
               <label>Name</label>
-              <input className="form-control aForm " type="text" placeholder="Default input"/>
+              <input className="formControl aForm " type="text" placeholder="Default input"/>
           
           <p className="form-text text-muted">Отображается пользователю</p>
             </div>
             <div className="createForm">
               <label>Cost</label>
-              <input className="form-control aForm " type="text" placeholder="Default input"/>
+              <input className="formControl aForm " type="text" placeholder="Default input"/>
           
           <p className="form-text text-muted">Будет добавено к сумме заказа</p>
             </div>
             
             <div className="createForm">
               <label>Minimum cost</label>
-              <input className="form-control aForm " type="text" placeholder="Default input"/>
+              <input className="formControl aForm " type="text" placeholder="Default input"/>
           
           <p className="form-text text-muted">Доставка будет доступна клиенту начиная с этой суммы</p>
             </div>
             <div className="createForm">
               <label>Tarif</label>
-              <textarea class="form-control aForm" ></textarea>
+              <textarea class="formControl aForm" ></textarea>
           
           <p className="form-text text-muted">Отображается пользователю</p>
             </div>

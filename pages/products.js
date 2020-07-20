@@ -23,8 +23,8 @@ export default function Products() {
                         <th>Cost</th>
                         </tr>
                         <tr>
-                        <td><input className="form-control" type="text" id="text-input"/></td>
-                        <td><input className="form-control" type="text" id="text-input"/></td>
+                        <td><input className="formControl" type="text" id="text-input"/></td>
+                        <td><input className="formControl" type="text" id="text-input"/></td>
                         <td></td>
                         <td></td>
                         </tr>

@@ -30,7 +30,7 @@ export default function Orders() {
                     <tbody>
                         <tr>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
                         <select className="custom-select">
@@ -45,16 +45,16 @@ export default function Orders() {
                     </select>
                         </td>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
-                        <input className="form-control" type="text" id="text-input"/>
+                        <input className="formControl" type="text" id="text-input"/>
                         </td>
                         <td>
-                        <input className="form-control " type="date" id="example-date-input"/>
+                        <input className="formControl " type="date" id="example-date-input"/>
                         </td>
                         <td>
-                        <input className="form-control form" type="text" id="text-input"/>
+                        <input className="formControl form" type="text" id="text-input"/>
                         </td>
                     
                         </tr>

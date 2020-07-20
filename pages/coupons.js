@@ -16,13 +16,13 @@ export default function Coupons() {
             
             <div className="createForm">
               <label>Name</label>
-              <input className="form-control aForm " type="text" placeholder="Default input"/>
+              <input className="formControl aForm " type="text" placeholder="Default input"/>
           <p className="form-text text-muted">От типа доставки зависит процесс заказа</p>
             </div>
             
             <div className="createForm">
               <label>Code</label>
-              <input className="form-control aForm " type="text" placeholder="Default input"/>
+              <input className="formControl aForm " type="text" placeholder="Default input"/>
           <p className="form-text text-muted">Отображается пользователю</p>
             </div>
 
@@ -32,24 +32,24 @@ export default function Coupons() {
                         <option >Yes</option>
                         <option >No</option>
                     </select>
-          <p class="form-text text-muted">Будет добавено к сумме заказа</p>
+          <p className="form-text text-muted">Будет добавено к сумме заказа</p>
             </div>
 
             <h3> Conditions</h3>
             <div className="createForm">
               <label>Minimum cost</label>
-              <input className="form-control aForm " type="text" placeholder="Default input"/>
+              <input className="formControl aForm " type="text" placeholder="Default input"/>
           <p className="form-text text-muted">Доставка будет доступна клиенту начиная с этой суммы</p>
             </div>
 
             <div className="createForm">
               <label>Num of coupons</label>
-              <textarea className="form-control aForm" placeholder='1'></textarea> 
+              <textarea className="formControl aForm" placeholder='1'></textarea> 
           <p className="form-text text-muted">Отображается пользователю</p>
             </div>
             <div className="createForm">
               <label>Num of coupons per customer</label>
-              <textarea className="form-control aForm" placeholder='1'></textarea> 
+              <textarea className="formControl aForm" placeholder='1'></textarea> 
           <p className="form-text text-muted">Отображается пользователю</p>
             </div>
             <h3> Coupon</h3>
@@ -62,7 +62,7 @@ export default function Coupons() {
             </div>
             <div className="createForm">
               <label>Amount</label>
-              <textarea class="form-control aForm" placeholder='0'></textarea> 
+              <textarea className="formControl aForm" placeholder='0'></textarea> 
           <p className="form-text text-muted">Отображается пользователю</p>
             </div>
             <div className="createForm">
